@@ -16,6 +16,7 @@ import {
   ShieldCheck,
   Stethoscope
 } from "lucide-react";
+import FloatingButtons from "@/component/flotingbutton";
 
 export default function AboutPage() {
   const branches = [
@@ -29,7 +30,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#050A09] pt-28 pb-20 text-white overflow-hidden">
+    <main className="min-h-screen bg-[#050A09] pt-28 pb-20 text-white overflow-hidden" style={{ fontFamily: 'Poppins' }} >
       {/* Background Ambient Glows */}
 
       
@@ -218,6 +219,7 @@ export default function AboutPage() {
         </aside>
 
       </div>
+      <FloatingButtons/>
     </main>
   );
 }

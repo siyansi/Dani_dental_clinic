@@ -275,6 +275,7 @@ import { Award, Star } from "lucide-react";
 // Assuming your assets are in place
 import heroDental from "@/assets/hero-dental.jpg";
 import heroDental2 from "@/assets/hero-dental-2.jpg";
+import FloatingButtons from "@/component/flotingbutton";
 
 const services = [
   { icon: Wrench, name: "Dental Implant", desc: "Permanent tooth replacement with natural-looking results" },
@@ -447,10 +448,10 @@ const highlights = [
 // };
 
   return (
-    <main className=" text-slate-200 overflow-x-hidden">
+    <main className=" text-slate-200 overflow-x-hidden  " style={{ fontFamily: 'Poppins' }}>
       
       {/* --- LUXE HERO SECTION --- */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden ">
         <AnimatePresence mode="wait">
           <motion.div
             key={current}
@@ -747,11 +748,11 @@ const highlights = [
                   viewport={{ once: true }}
                   className="flex gap-4 items-start group/item"
                 >
-                  <div className="w-10 h-10 flex-shrink-0  rounded-xl bg-primary/10 flex items-center justify-center text-white group-hover/item:bg-primary group-hover/item:text-green-500 transition-all duration-300">
+                  <div className="w-10 h-10 flex-shrink-0  rounded-xl bg-primary/10 flex items-center justify-center text-green-300 group-hover/item:bg-primary group-hover/item:text-green-500 transition-all duration-300">
                     <Star className="w-5 h-5" />
                   </div>
 
-                  <p className=" text-gray-300 leading-relaxed">{item}</p>
+                  <p className=" text-gray-600 leading-relaxed">{item}</p>
                 </motion.li>
               ))}
             </ul>
@@ -1028,7 +1029,7 @@ const highlights = [
 
       </div>
     </section>
-
+<FloatingButtons/>
     </main>
   );
 };

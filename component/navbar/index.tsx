@@ -15,20 +15,20 @@ const navLinks = [
     label: "Services",
     href: "/service",
     children: [
-      { label: "Nitrous Oxide Relaxation", href: "/services/nitrous-oxide" },
-      { label: "Orthodontic Treatment", href: "/services/orthodontic" },
-      { label: "Pediatric Dental Treatment", href: "/services/pediatric" },
-      { label: "Dental Implant", href: "/services/implants" },
-      { label: "Root Canal Treatment", href: "/services/root-canal" },
-      { label: "Complete Denture", href: "/services/dentures" },
-      { label: "Dental Crown And Bridges", href: "/services/crown-bridges" },
-      { label: "Wisdom Teeth Removal", href: "/services/wisdom-teeth" },
-      { label: "Dental Fillings", href: "/services/fillings" },
-      { label: "Gum Treatment", href: "/services/gum-treatment" },
-      { label: "Invisalign treatment", href: "/services/invisalign" },
+      { label: "Nitrous Oxide Relaxation", href: "/service/nitrous-oxide-relaxation" },
+      { label: "Orthodontic Treatment", href: "/service/orthodontic" },
+      { label: "Pediatric Dental Treatment", href: "/service/pediatric" },
+      { label: "Dental Implant", href: "/service/implants" },
+      { label: "Root Canal Treatment", href: "/service/root-canal" },
+      { label: "Complete Denture", href: "/service/dentures" },
+      { label: "Dental Crown And Bridges", href: "/service/crown-bridges" },
+      { label: "Wisdom Teeth Removal", href: "/service/wisdom-teeth" },
+      { label: "Dental Fillings", href: "/service/fillings" },
+      { label: "Gum Treatment", href: "/service/gum-treatment" },
+      { label: "Invisalign treatment", href: "/service/invisalign" },
     ],
   },
-  { label: "Our Doctors", href: "#doctors" },
+  { label: "Our Doctors", href: "/ourdoctor" },
   { label: "Gallery", href: "/gallery" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
@@ -45,7 +45,7 @@ const Navbar = () => {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className="fixed top-0 left-0 right-0 z-[100] bg-[#050A09]/70 backdrop-blur-lg border-b border-white/10"
     >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 md:h-20 " style={{ fontFamily: 'Poppins' }}>
         
         {/* Logo Section */}
         <Link href="/" className="flex items-center gap-3 group">
@@ -186,3 +186,140 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// "use client";
+
+
+// import { useState } from "react";
+// import { Menu, X, ChevronDown } from "lucide-react";
+// import { motion, AnimatePresence } from "framer-motion";
+// import Link from "next/link";
+
+// const serviceDropdown = [
+//   { label: "Nitrous Oxide Relaxation", slug: "nitrous-oxide-relaxation" },
+//   { label: "Orthodontic Treatment", slug: "orthodontic-treatment" },
+//   { label: "Pediatric Dental Treatment", slug: "pediatric-dental-treatment" },
+//   { label: "Dental Implant", slug: "dental-implant" },
+//   { label: "Root Canal Treatment", slug: "root-canal-treatment" },
+//   { label: "Complete Denture", slug: "complete-denture" },
+//   { label: "Dental Crown & Bridges", slug: "dental-crown-and-bridges" },
+//   { label: "Wisdom Teeth Removal", slug: "wisdom-teeth-removal" },
+//   { label: "Dental Fillings", slug: "dental-fillings" },
+//   { label: "Gum Treatment", slug: "gum-treatment" },
+//   { label: "Invisalign Treatment", slug: "invisalign-treatment" },
+// ];
+
+// const navLinks = [
+//   { label: "Home", href: "/" },
+//   { label: "About Us", href: "/#about" },
+//   {
+//     label: "Services",
+//     href: "/#services",
+//     children: serviceDropdown,
+//   },
+//   { label: "Our Doctors", href: "/#doctors" },
+//   { label: "Gallery", href: "/#" },
+//   { label: "Blog", href: "/#blog" },
+//   { label: "Contact Us", href: "/#contact" },
+// ];
+
+// const Navbar = () => {
+//   const [mobileOpen, setMobileOpen] = useState(false);
+//   const [hoveredDropdown, setHoveredDropdown] = useState<string | null>(null);
+
+//   return (
+//     <nav className="bg-background sticky top-0 z-50 shadow-md">
+//       <div className="container mx-auto flex items-center justify-between py-3">
+//         <Link href="/" className="flex items-center gap-2">
+//           <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+//             <span className="text-primary-foreground font-display font-bold text-lg">G</span>
+//           </div>
+//           <div>
+//             <span className="font-display font-bold text-lg text-foreground leading-none block">GUGU</span>
+//             <span className="text-xs text-muted-foreground tracking-widest uppercase">Dental Clinics</span>
+//           </div>
+//         </Link>
+
+//         {/* Desktop Nav */}
+//         <ul className="hidden lg:flex items-center gap-1">
+//           {navLinks.map((link) => (
+//             <li
+//               key={link.label}
+//               className="relative"
+//               onMouseEnter={() => link.children && setHoveredDropdown(link.label)}
+//               onMouseLeave={() => setHoveredDropdown(null)}
+//             >
+//               <a
+//                 href={link.href}
+//                 className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors duration-300 flex items-center gap-1 relative group"
+//               >
+//                 {link.label}
+//                 {link.children && <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />}
+//                 <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/4" />
+//               </a>
+
+//               <AnimatePresence>
+//                 {link.children && hoveredDropdown === link.label && (
+//                   <motion.ul
+//                     initial={{ opacity: 0, y: 10 }}
+//                     animate={{ opacity: 1, y: 0 }}
+//                     exit={{ opacity: 0, y: 10 }}
+//                     transition={{ duration: 0.2 }}
+//                     className="absolute top-full left-0 w-64 bg-background shadow-xl rounded-lg border border-border py-2 overflow-hidden"
+//                   >
+//                     {link.children.map((child) => (
+//                       <li key={child.slug}>
+//                         <Link
+//                           href={`/services/${child.slug}`}
+//                           className="block px-4 py-2.5 text-sm text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+//                         >
+//                           {child.label}
+//                         </Link>
+//                       </li>
+//                     ))}
+//                   </motion.ul>
+//                 )}
+//               </AnimatePresence>
+//             </li>
+//           ))}
+//         </ul>
+
+//         {/* Mobile Toggle */}
+//         <button
+//           onClick={() => setMobileOpen(!mobileOpen)}
+//           className="lg:hidden p-2 text-foreground"
+//         >
+//           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+//         </button>
+//       </div>
+
+//       {/* Mobile Menu */}
+//       <AnimatePresence>
+//         {mobileOpen && (
+//           <motion.div
+//             initial={{ height: 0 }}
+//             animate={{ height: "auto" }}
+//             exit={{ height: 0 }}
+//             className="lg:hidden overflow-hidden bg-background border-t border-border"
+//           >
+//             <ul className="py-4 px-4 space-y-1">
+//               {navLinks.map((link) => (
+//                 <li key={link.label}>
+//                   <a
+//                     href={link.href}
+//                     onClick={() => setMobileOpen(false)}
+//                     className="block py-2.5 px-3 text-sm font-medium text-foreground hover:text-primary hover:bg-secondary rounded-md transition-all duration-200"
+//                   >
+//                     {link.label}
+//                   </a>
+//                 </li>
+//               ))}
+//             </ul>
+//           </motion.div>
+//         )}
+//       </AnimatePresence>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
