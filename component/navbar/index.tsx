@@ -60,7 +60,7 @@ const Navbar = () => {
             />
           </div>
           <div className="hidden sm:block">
-            <span className="font-display font-bold text-lg text-white leading-none block">GUGU</span>
+            <span className="font-display font-bold text-lg text-white leading-none block">DANI</span>
             <span className="text-[10px] text-[#34D399] tracking-[0.2em] uppercase font-bold">Dental Clinics</span>
           </div>
         </Link>

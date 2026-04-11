@@ -40,7 +40,7 @@ const Footer = () => {
                 <span className="text-white font-black text-xl">G</span>
               </div>
               <div>
-                <span className="font-bold text-2xl tracking-tighter block text-white">GUGU</span>
+                <span className="font-bold text-2xl tracking-tighter block text-white">DANI</span>
                 <span className="text-[10px] opacity-50 tracking-[0.2em] uppercase font-bold">Dental Clinics</span>
               </div>
             </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 font-bold uppercase mb-1">Emergency Call</p>
-                  <p className="text-sm font-bold text-white">095979 06838</p>
+                  <p className="text-sm font-bold text-white">90473 75650</p>
                 </div>
               </div>
 
@@ -121,11 +121,11 @@ const Footer = () => {
                 <div className="flex gap-3">
                   <MapPin size={16} className="text-green-500 shrink-0 mt-1" />
                   <div className="text-xs text-slate-400 leading-relaxed">
-                    <span className="text-white font-bold block mb-1 uppercase tracking-wider text-[10px]">Saibaba Colony</span>
-                    6th street, Velappar Street, Coimbatore - 641038
+                    <span className="text-white font-bold block mb-1 uppercase tracking-wider text-[10px]">Keeranatham</span>
+                    7/52-2B Sumangali Garden, Coimbatore - 641038
                   </div>
                 </div>
-                <div className="flex gap-3">
+                {/* <div className="flex gap-3">
                   <MapPin size={16} className="text-green-500 shrink-0 mt-1" />
                   <div className="text-xs text-slate-400 leading-relaxed">
                     <span className="text-white font-bold block mb-1 uppercase tracking-wider text-[10px]">Thudiyalur</span>
@@ -138,7 +138,7 @@ const Footer = () => {
                     <span className="text-white font-bold block mb-1 uppercase tracking-wider text-[10px]">Mettupalayam</span>
                     208 E2, Annur Rd, above Nibin MRI - 641301
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Footer = () => {
   <div className="container mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-4 relative">
     
     <p className="text-slate-500 text-xs">
-      © {currentYear} <span className="text-slate-300 font-bold">GUGU Dental Clinics</span>. All rights reserved.
+      © {currentYear} <span className="text-slate-300 font-bold">DANI Dental Clinics</span>. All rights reserved.
     </p>
 
     {/* Invisible Brand Watermark */}

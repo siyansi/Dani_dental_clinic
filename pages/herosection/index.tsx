@@ -519,9 +519,9 @@ const highlights = [
           <div className="text-white/30 font-serif text-xl italic">0{slides.length}</div>
         </div>
       </section>
-
+    
       {/* --- CLASSIC ABOUT SECTION --- */}
-      <section className="py-16 relative bg-cyan-100/50        -gradient-to-b from-[#0B1220] via-[#6d7d7c52] to-[#0B1220]">
+      <section className="py-16 relative bg-cyan-100/500     ">
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-24 items-center">
             <motion.div
@@ -543,7 +543,7 @@ const highlights = [
             <div>
               <h2 className="text-black font-serif italic text-2xl mb-4">A Legacy of Care</h2>
               <h3 className="text-4xl md:text-5xl font-bold text-green-500 mb-8 leading-tight">
-                Crafting Signature Smiles <br/> at GUGU Dental
+                Crafting Signature Smiles <br/> at DANI Dental
               </h3>
               <p className="text-slate-600 leading-relaxed mb-10 text-lg">
                 We believe that every smile is a masterpiece. Our multispeciality clinic merges 
@@ -665,7 +665,7 @@ const highlights = [
 
        <section
       id="doctors"
-      className="bg-cyan-100/50 gradient-to-r from-[#0B1220] via-[#6d7d7c52] to-[#0B1220] overflow-hidden"
+      className="bg-cyan-100/50  overflow-hidden"
     >
       <div className=" mb-18  mt-10 container mx-auto">
 
@@ -715,7 +715,7 @@ const highlights = [
               {/* Doctor Info */}
               <div className="absolute bottom-0 left-0 right-0 p-6 backdrop-blur-sm">
                 <h3 className="font-display text-2xl font-bold text-white">
-                  Dr. K. Pournesh
+                  Dr.PL.Nagappan
                 </h3>
                 <p className="text-white/80 text-sm">
                   Lead Dentist & Founder

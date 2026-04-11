@@ -46,17 +46,17 @@ export default function AboutPage() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            data-cursor-text="GUGU"
+            data-cursor-text="Dani"
           >
             <h1 className="text-4xl md:text-6xl font-display font-bold leading-tight">
-              About GUGU dental : <br />
+              About DANI dental : <br />
               <span className="text-[#34D399] italic">Best Dental Clinic in Coimbatore</span>
             </h1>
             <h3 className="text-xl font-semibold mt-6 text-[#34D399] tracking-widest uppercase">
-              Then , GUGU IS Your RIGHT CHOICE !!
+              Then , Dani dental clinic IS Your RIGHT CHOICE !!
             </h3>
             <p className="mt-6 text-gray-400 text-lg leading-relaxed">
-              Welcome to GUGU Dental Clinics, your top choice for a <span className="text-white">Best dental clinic in Coimbatore</span>, 
+              Welcome to DANI Dental Clinics, your top choice for a <span className="text-white">Best dental clinic in Coimbatore</span>, 
               located in the heart of Saibaba Colony and Thudiyalur. We provide modern, specialized dental treatments 
               that are both gentle and affordable. Our expert team is dedicated to offering high-quality denture care 
               and finding the best solutions for all your dental needs.
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 <h4 className="font-bold text-xl">Our New Branch In Thudiyalur</h4>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
-                We are excited to announce that GUGU Dental Clinic is opening a new branch in Thudiyalur, Coimbatore. 
+                We are excited to announce that DANI Dental Clinic is opening a new branch in Thudiyalur, Coimbatore. 
                 This new location will bring our top-quality care even closer to more people. Whether you need routine care, 
                 pediatric treatment, or more specialized services, we are here to offer exceptional care.
               </p>
@@ -99,13 +99,13 @@ export default function AboutPage() {
               </h2>
               <div className="text-gray-400 space-y-4 leading-relaxed">
                 <p>
-                  At GUGU Dental Clinics, your comfort and satisfaction are our top priorities. We know visiting the dentist 
+                  At DANI Dental Clinics, your comfort and satisfaction are our top priorities. We know visiting the dentist 
                   can be stressful, so we try to ensure you feel relaxed and well cared for. Our friendly and compassionate 
                   staff is here to ensure you leave with a smile you’re proud of.
                 </p>
                 <p>
                   We offer comprehensive services, including <span className="text-white">dental fillings, root canal treatments, 
-                  full mouth rehabilitation with implants</span>, and other specialized treatments. Additionally, GUGU Dental 
+                  full mouth rehabilitation with implants</span>, and other specialized treatments. Additionally, DANI Dental 
                   specializes in pediatric treatment, ensuring that children receive exceptional care in a welcoming environment.
                 </p>
               </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
           {/* Why Choose Us Grid */}
           <div className="grid md:grid-cols-2 gap-6 pt-10">
-            <h3 className="col-span-full text-3xl font-display font-bold">Why Choose Gugu Dental Clinic?</h3>
+            <h3 className="col-span-full text-3xl font-display font-bold">Why Choose Dani Dental Clinic?</h3>
             
             {[
               { 

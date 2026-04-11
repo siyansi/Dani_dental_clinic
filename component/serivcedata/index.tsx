@@ -68,12 +68,12 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "orthodontic-treatment",
     title: "Orthodontic Treatment in Coimbatore",
     breadcrumb: "Orthodontic Treatment",
-    intro: "You can achieve the smile of your dreams at Gugu Dental Clinic with the help of a variety of orthodontic treatments in Coimbatore. The teeth and jaws are moved into the proper positions by orthodontists using a range of tools, such as braces and aligners.",
+    intro: "You can achieve the smile of your dreams at Dani Dental Clinic with the help of a variety of orthodontic treatments in Coimbatore. The teeth and jaws are moved into the proper positions by orthodontists using a range of tools, such as braces and aligners.",
     image: "orthodontic",
     sections: [
       {
         heading: "Introduction",
-        content: "If you're looking for an orthodontic dentistry clinic, you've come to the right spot. Orthodontics may be the answer for you if you want to improve your smile's aesthetics and oral health. We at Gugu provide customized solutions as per our patients' wishes and needs. Orthodontics is a specialty in the dental field. The diagnosis, prevention, and treatment of malocclusions—misalignments of the jaws and teeth—are its main concerns."
+        content: "If you're looking for an orthodontic dentistry clinic, you've come to the right spot. Orthodontics may be the answer for you if you want to improve your smile's aesthetics and oral health. We at Dani provide customized solutions as per our patients' wishes and needs. Orthodontics is a specialty in the dental field. The diagnosis, prevention, and treatment of malocclusions—misalignments of the jaws and teeth—are its main concerns."
       },
       {
         heading: "Who needs orthodontic treatment?",
@@ -113,7 +113,7 @@ export const servicesData: Record<string, ServiceData> = {
       },
       {
         heading: "Conclusion",
-        content: "Maintain your daily routine of brushing your teeth twice and cleaning once for the best oral hygiene. Visit Gugu Dental, as we have qualified professionals for orthodontic treatment in Coimbatore. Call us at 95979 06838."
+        content: "Maintain your daily routine of brushing your teeth twice and cleaning once for the best oral hygiene. Visit Dani Dental, as we have qualified professionals for orthodontic treatment in Coimbatore. Call us at 95979 06838."
       }
     ]
   },
@@ -121,12 +121,12 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "dental-implant",
     title: "Dental Implants in Coimbatore",
     breadcrumb: "Dental Implant",
-    intro: "We at Gugu Dental Clinic offer dental implants in Coimbatore. If you're looking for a permanent solution for missing teeth, we specialize in providing high-quality dental implant services to our patients. We provide affordable tooth implant services and other dental services in Coimbatore.",
+    intro: "We at Dani Dental Clinic offer dental implants in Coimbatore. If you're looking for a permanent solution for missing teeth, we specialize in providing high-quality dental implant services to our patients. We provide affordable tooth implant services and other dental services in Coimbatore.",
     image: "dental-implant",
     sections: [
       {
         heading: "What are Dental Implants?",
-        content: "Dental implants are a permanent solution for missing teeth, offering a secure and reliable method of tooth replacement. At Gugu Dental Clinic, we provide dental implants that create a strong and stable foundation for new teeth. It is the process of replacing an artificial tooth in the place of a missing or damaged tooth. The implant procedure involves metal screws that are biocompatible with artificial ceramic teeth that match your natural teeth."
+        content: "Dental implants are a permanent solution for missing teeth, offering a secure and reliable method of tooth replacement. At Dani Dental Clinic, we provide dental implants that create a strong and stable foundation for new teeth. It is the process of replacing an artificial tooth in the place of a missing or damaged tooth. The implant procedure involves metal screws that are biocompatible with artificial ceramic teeth that match your natural teeth."
       },
       {
         heading: "Why Dental Implants?",
@@ -165,8 +165,8 @@ export const servicesData: Record<string, ServiceData> = {
         ]
       },
       {
-        heading: "Why Gugu Dental Clinic?",
-        content: "At Gugu Dental Clinic in Saibaba Colony, we have an experienced dentist who specializes in painless dental implant treatments. We have done implant surgeries for thousands of happy faces. We prefer to give painless advanced treatments at an affordable cost with state-of-the-art facilities."
+        heading: "Why Dani Dental Clinic?",
+        content: "At Dani Dental Clinic in Saibaba Colony, we have an experienced dentist who specializes in painless dental implant treatments. We have done implant surgeries for thousands of happy faces. We prefer to give painless advanced treatments at an affordable cost with state-of-the-art facilities."
       }
     ]
   },
@@ -174,7 +174,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "root-canal-treatment",
     title: "Root Canal Treatment in Coimbatore",
     breadcrumb: "Root Canal Treatment",
-    intro: "Welcome to the prestigious Gugu Dental Clinic. We specialize in Root Canal Treatment in Coimbatore and offer patients a full range of dental care services. Our clinic specializes in offering patients affordable care and assisting them in regaining their oral health and maintaining a beautiful smile.",
+    intro: "Welcome to the prestigious Dani Dental Clinic. We specialize in Root Canal Treatment in Coimbatore and offer patients a full range of dental care services. Our clinic specializes in offering patients affordable care and assisting them in regaining their oral health and maintaining a beautiful smile.",
     image: "root-canal",
     sections: [
       {
@@ -183,7 +183,7 @@ export const servicesData: Record<string, ServiceData> = {
       },
       {
         heading: "Does RCT treatment cause pain?",
-        content: "As GUGU Dental Clinics provides you with the latest technology in endodontic procedures to ease your pain, our endodontic specialists perform RCT treatments that cause the least painful procedures — even less painful than a tooth extraction."
+        content: "As Dani Dental Clinics provides you with the latest technology in endodontic procedures to ease your pain, our endodontic specialists perform RCT treatments that cause the least painful procedures — even less painful than a tooth extraction."
       },
       {
         heading: "When is an RCT procedure required?",
@@ -219,7 +219,7 @@ export const servicesData: Record<string, ServiceData> = {
       },
       {
         heading: "Conclusion",
-        content: "The best solution for Root Canal in Coimbatore is Gugu Dental Clinic, as we have highly trained professionals, modern technology, personalized care, and affordable prices. Contact us at 95979 06838 to book your appointment."
+        content: "The best solution for Root Canal in Coimbatore is Dani Dental Clinic, as we have highly trained professionals, modern technology, personalized care, and affordable prices. Contact us at 95979 06838 to book your appointment."
       }
     ]
   },
@@ -227,7 +227,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "pediatric-dental-treatment",
     title: "Pediatric Dental Treatment in Coimbatore",
     breadcrumb: "Pediatric Dental Treatment",
-    intro: "At Gugu Dental Clinic, we understand that children need special dental care. Our pediatric dental specialists create a warm, friendly environment to make your child's dental visit comfortable and fun. We offer comprehensive dental care for children of all ages.",
+    intro: "At Dani Dental Clinic, we understand that children need special dental care. Our pediatric dental specialists create a warm, friendly environment to make your child's dental visit comfortable and fun. We offer comprehensive dental care for children of all ages.",
     image: "pediatric",
     sections: [
       {
@@ -276,7 +276,7 @@ export const servicesData: Record<string, ServiceData> = {
       },
       {
         heading: "Invisalign Cost in Coimbatore",
-        content: "At Gugu Dental Clinic, we offer customized Invisalign treatment with affordable plans and flexible payment options. You get the perfect smile without financial stress. Book a consultation today!"
+        content: "At Dani Dental Clinic, we offer customized Invisalign treatment with affordable plans and flexible payment options. You get the perfect smile without financial stress. Book a consultation today!"
       },
       {
         heading: "What can Invisalign fix?",
@@ -335,7 +335,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "complete-denture",
     title: "Dentures in Coimbatore",
     breadcrumb: "Complete Denture",
-    intro: "Gugu Dental Clinic offers Dentures in Coimbatore. Our top dentist team is dedicated to helping you achieve the smile of your dreams through customized solutions for your long-term dental problems. Dentures restore a brighter smile by replacing missing teeth.",
+    intro: "Dani Dental Clinic offers Dentures in Coimbatore. Our top dentist team is dedicated to helping you achieve the smile of your dreams through customized solutions for your long-term dental problems. Dentures restore a brighter smile by replacing missing teeth.",
     image: "denture",
     sections: [
       {
@@ -373,12 +373,12 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "wisdom-teeth-removal",
     title: "Wisdom Teeth Removal in Coimbatore",
     breadcrumb: "Wisdom Teeth Removal",
-    intro: "Gugu offers specific treatment and procedures for wisdom teeth removal in Coimbatore to help in your long-term pain relief. Here is the complete guide for wisdom tooth removal at a dental clinic, including tips for wisdom tooth home remedies and many more.",
+    intro: "Dani Dental Clinic offers specific treatment and procedures for wisdom teeth removal in Coimbatore to help in your long-term pain relief. Here is the complete guide for wisdom tooth removal at a dental clinic, including tips for wisdom tooth home remedies and many more.",
     image: "wisdom-teeth",
     sections: [
       {
         heading: "What is Wisdom Teeth Removal?",
-        content: "Wisdom teeth removal is a surgical treatment that involves removing one or more wisdom teeth, which are the four permanent adult teeth located in the back corners of your mouth, two on top and two on bottom. The cost of wisdom teeth removal in Coimbatore is affordable at Gugu Dental Clinic."
+        content: "Wisdom teeth removal is a surgical treatment that involves removing one or more wisdom teeth, which are the four permanent adult teeth located in the back corners of your mouth, two on top and two on bottom. The cost of wisdom teeth removal in Coimbatore is affordable at Dani Dental Clinic."
       },
       {
         heading: "What is Third Molar?",
@@ -405,12 +405,12 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "dental-fillings",
     title: "Dental Fillings in Coimbatore",
     breadcrumb: "Dental Fillings",
-    intro: "At GUGU Dental Clinics in Saibaba Colony, Coimbatore, we use modern dental filling materials to restore cavities and damaged teeth. The filling process is done under local anesthesia and is completely painless. Our enthusiastic team of professionals provides customized treatment for every patient.",
+    intro: "At DANI Dental Clinics in Saibaba Colony, Coimbatore, we use modern dental filling materials to restore cavities and damaged teeth. The filling process is done under local anesthesia and is completely painless. Our enthusiastic team of professionals provides customized treatment for every patient.",
     image: "dental-fillings",
     sections: [
       {
         heading: "About Dental Fillings",
-        content: "If the decay is close to the root, our dentist may first put in a liner made of glass ionomer cement, composite resin, or another material to safeguard the nerve. GUGU Dental Clinics provides secure and high-class dental filling treatment. Small shallow cavities can be filled with dental cements which prevent further deepening of the decay and stop spreading decay to the next tooth."
+        content: "If the decay is close to the root, our dentist may first put in a liner made of glass ionomer cement, composite resin, or another material to safeguard the nerve. Dani Dental Clinics provides secure and high-class dental filling treatment. Small shallow cavities can be filled with dental cements which prevent further deepening of the decay and stop spreading decay to the next tooth."
       },
       {
         heading: "Types of Dental Fillings",
@@ -431,7 +431,7 @@ export const servicesData: Record<string, ServiceData> = {
     slug: "gum-treatment",
     title: "Gum Treatment in Coimbatore",
     breadcrumb: "Gum Treatment",
-    intro: "Gum treatment is a series of procedures that are used to prevent, diagnose, and treat gum disease. At Gugu, we offer the best gum treatment in Coimbatore, as we have experienced dentists who can provide you with high-quality treatment and post-treatment guidance to cure your gum problems.",
+    intro: "Gum treatment is a series of procedures that are used to prevent, diagnose, and treat gum disease. At Dani Dental Clinics, we offer the best gum treatment in Coimbatore, as we have experienced dentists who can provide you with high-quality treatment and post-treatment guidance to cure your gum problems.",
     image: "gum-treatment",
     sections: [
       {

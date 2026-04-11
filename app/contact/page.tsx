@@ -7,23 +7,23 @@ import {
   ChevronRight, Sparkles, MessageSquare 
 } from "lucide-react";
 
-const locations = [
-  {
-    name: "Saibaba Colony (Main)",
-    address: "6th street, Velappar Street, near kannan departmental store, Saibaba Colony, Coimbatore, 641038",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.148560822601!2d76.94584287584164!3d11.027471954508493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8591ce8e604f7%3A0xc484e591789c6762!2sGugu%20Dental%20Clinics!5e0!3m2!1sen!2sin!4v1711550000000!5m2!1sen!2sin"
-  },
-  {
-    name: "Thudiyalur Branch",
-    address: "64E, Mettupalayam Rd, above Bank of Baroda, VKL Nagar, Thudiyalur, Coimbatore, 641034",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.684347783935!2d76.93282297584196!3d11.062234553856285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7936a596061%3A0x7b6539e6a2b8e5c8!2sGUGU%20DENTAL%20CLINICS%20-%20THUDIYALUR!5e0!3m2!1sen!2sin!4v1711551000000!5m2!1sen!2sin"
-  },
-  {
-    name: "Mettupalayam Branch",
-    address: "208 E2, Annur Rd, above Nibin MRI, Mettupalayam, Tamil Nadu 641301",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.4321456789!2d76.94!3d11.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDE4JzAwLjAiTiA3NsKwNTYnMjQuMCJF!5e0!3m2!1sen!2sin!4v1711552000000!5m2!1sen!2sin"
-  }
-];
+// const locations = [
+//   {
+//     name: "Saibaba Colony (Main)",
+//     address: "6th street, Velappar Street, near kannan departmental store, Saibaba Colony, Coimbatore, 641038",
+//     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.148560822601!2d76.94584287584164!3d11.027471954508493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8591ce8e604f7%3A0xc484e591789c6762!2sGugu%20Dental%20Clinics!5e0!3m2!1sen!2sin!4v1711550000000!5m2!1sen!2sin"
+//   },
+//   {
+//     name: "Thudiyalur Branch",
+//     address: "64E, Mettupalayam Rd, above Bank of Baroda, VKL Nagar, Thudiyalur, Coimbatore, 641034",
+//     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.684347783935!2d76.93282297584196!3d11.062234553856285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7936a596061%3A0x7b6539e6a2b8e5c8!2sGUGU%20DENTAL%20CLINICS%20-%20THUDIYALUR!5e0!3m2!1sen!2sin!4v1711551000000!5m2!1sen!2sin"
+//   },
+//   {
+//     name: "Mettupalayam Branch",
+//     address: "208 E2, Annur Rd, above Nibin MRI, Mettupalayam, Tamil Nadu 641301",
+//     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.4321456789!2d76.94!3d11.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDE4JzAwLjAiTiA3NsKwNTYnMjQuMCJF!5e0!3m2!1sen!2sin!4v1711552000000!5m2!1sen!2sin"
+//   }
+// ];
 
 const ContactPage = () => {
   const [activeLocation, setActiveLocation] = useState(0);
@@ -55,16 +55,16 @@ const ContactPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <motion.div whileHover={{ scale: 1.02 }} className="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-100 flex items-center gap-4">
                 <div className="w-12 h-12 rounded-2xl bg-green-50 flex items-center justify-center text-green-600"><Phone /></div>
-                <div><p className="text-xs text-slate-400 font-bold uppercase">Call Us</p><p className="font-bold text-slate-800">095979 06838</p></div>
+                <div><p className="text-xs text-slate-400 font-bold uppercase">Call Us</p><p className="font-bold text-slate-800">90473 75650</p></div>
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }} className="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-100 flex items-center gap-4">
                 <div className="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600"><Mail /></div>
-                <div><p className="text-xs text-slate-400 font-bold uppercase">Email</p><p className="font-bold text-slate-800">info@gugu.net</p></div>
+                <div><p className="text-xs text-slate-400 font-bold uppercase">Email</p><p className="font-bold text-slate-800">info@dani.net</p></div>
               </motion.div>
             </div>
 
             {/* Location Selector Cards */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h3 className="text-lg font-bold text-slate-800 px-2 flex items-center gap-2">
                 <MapPin className="text-green-500" size={20} /> Visit Our Clinics
               </h3>
@@ -83,17 +83,57 @@ const ContactPage = () => {
                   <p className="text-sm text-slate-500 mt-2 line-clamp-1">{loc.address}</p>
                 </motion.button>
               ))}
-            </div>
+            </div> */}
 
             {/* Live Map Box */}
-            <div className="h-80 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white relative group">
+            {/* <div className="h-80 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white relative group">
               <iframe
                 title="map"
                 src={locations[activeLocation].mapUrl}
                 className="w-full h-full grayscale-[0.2] contrast-[1.1] group-hover:grayscale-0 transition-all duration-700"
                 loading="lazy"
               ></iframe>
-            </div>
+            </div> */}
+
+<div className="space-y-4">
+    <h3 className="text-xl font-bold text-slate-800 px-2 flex items-center gap-2">
+      <MapPin className="text-green-500" size={24} /> Visit Our Clinic
+    </h3>
+    
+    <div className="w-full text-left p-8 rounded-[2rem] bg-white border-2 border-green-500 shadow-xl">
+      <div className="flex justify-between items-center">
+        <p className="font-bold text-xl text-green-600">Dani Dental Clinic</p>
+      </div>
+      <div className="mt-4 space-y-1">
+        <p className="text-slate-700 font-medium">7/52-2B Sumangali Garden</p>
+        <p className="text-slate-700 font-medium">Keeranatham</p>
+        <p className="text-slate-700 font-medium">Coimbatore 641035</p>
+      </div>
+      
+      {/* Optional: Add a "Get Directions" button */}
+      <a 
+        href="https://www.google.com/maps/search/?api=1&query=Dani+Dental+Clinic+Keeranatham+Coimbatore" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-green-600 hover:text-green-700 underline"
+      >
+        Open in Google Maps <ChevronRight size={16} />
+      </a>
+    </div>
+  </div>
+
+  {/* Live Map Box */}
+  <div className="h-80 rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white relative group">
+    <iframe
+      title="map"
+      /* Replace the URL below with your actual Google Maps Embed link */
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.247182285497!2d77.016!3d11.082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f9d0c!2zS2VlcmFuYXRoYW0sIENvaW1iYXRvcmUsIFRhbWlsIE5hZHU!5e0!3m2!1sen!2sin!4v1712750000000"
+      className="w-full h-full grayscale-[0.2] contrast-[1.1] group-hover:grayscale-0 transition-all duration-700"
+      loading="lazy"
+      allowFullScreen
+    ></iframe>
+  </div>
+
           </div>
 
           {/* RIGHT SIDE: Modern Glass Form */}
