@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gugu_Dental_Clinic",
+  title: "DANI_Dental_Clinic",
   description: "Modern dental clinic website built with Next.js and Tailwind CSS.",
 };
 

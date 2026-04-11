@@ -35,7 +35,7 @@ const FloatingButtons = () => {
 
       {/* WhatsApp Button */}
       <motion.a
-        href="https://wa.me/9597906838"
+        href="https://wa.me/9047375650"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center text-background shadow-lg hover:shadow-xl hover:bg-green-600 transition-all duration-300"
@@ -49,7 +49,7 @@ const FloatingButtons = () => {
 
       {/* Phone Button */}
       <motion.a
-        href="tel:9597906838"
+        href="tel:9047375650"
         className="w-14 h-14 rounded-full bg-blue-500 flex items-center justify-center text-background shadow-lg hover:shadow-xl transition-all duration-300"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
