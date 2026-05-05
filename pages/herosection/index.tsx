@@ -290,6 +290,56 @@ const services = [
   { icon: Droplets, name: "Gum Treatment", desc: "Comprehensive periodontal care and treatment" },
 ];
 
+
+import doc1 from '../../assets/IMG-20260501-WA0031.jpg.jpeg';
+import doc2 from '../../assets/IMG-20260328-WA0008.jpg.jpeg';
+import doc3 from '../../assets/IMG-20260505-WA0014.jpg.jpeg';
+import doc4 from '../../assets/IMG-20260328-WA0006.jpg.jpeg';
+import doc5 from '../../assets/IMG-20260302-WA0003.jpg.jpeg';
+import hospCert1 from '../../assets/IMG-20260302-WA0003.jpg.jpeg';
+import hospCert2 from '../../assets/IMG-20260302-WA0003.jpg.jpeg';
+import hospCert3 from '../../assets/IMG-20260302-WA0003.jpg.jpeg';
+
+
+const hospitalCertificates = [
+  { src: hospCert1, title: "ISO 9001:2015 Certified" },
+  { src: hospCert2, title: "IDA Registered Clinic" },
+  { src: hospCert3, title: "State Health Dept. Licensed" },
+];
+
+const doctors = [
+  {
+    name: "Dr. A. Steffina Lydia Jascinth",
+    role: "Oral Physician & Radiologist",
+    specialty: "Founder of Dani Dental Clinic",
+    image: doc1,
+  },
+  {
+    name: "Dr. S. Rajapriya",
+    role: "Dental Surgeon",
+    specialty: "General Dentistry",
+    image: doc3,
+  },
+  {
+    name: "Dr. G. Sathees Chandra Mouli",
+    role: "Oral Physician",
+    specialty: "Oral Diagnosis",
+    image: doc2,
+  },
+  {
+    name: "Dr. T. Vignesh Prabhu",
+    role: "Consultant Oral Maxillofacial Surgeon",
+    specialty: "Surgical Specialist",
+    image: doc4,
+  },
+  {
+    name: "Dr. PL. Nagappan",
+    role: "Consultant Orthodontist",
+    specialty: "Braces Specialist",
+    image: doc5,
+  },
+];
+
 const points = [
   {
     icon: CreditCard,
@@ -667,127 +717,127 @@ const highlights = [
       id="doctors"
       className="bg-cyan-100/50  overflow-hidden"
     >
-      <div className=" mb-18  mt-10 container mx-auto">
+      <div className="mb-18 mt-10 container mx-auto px-4">
+  {/* Title Section */}
+  <motion.div
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    className="text-center mb-16"
+  >
+    <h6 className="text-black text-md font-semibold uppercase tracking-[0.4em] mb-4">
+      Certification
+    </h6>
+    <span className="text-green-500 font-serif italic text-4xl md:text-6xl font-bold">
+      Our Expert Doctors
+    </span>
+  </motion.div>
 
-        {/* Title */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          {/* <span className="text-primary font-semibold text-sm uppercase tracking-widest">
-            Certification
-          </span>
-
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-3">
-            Our Expert Doctor
-          </h2> */}
-           <h6 className="text-black text-md font-semibold uppercase tracking-[0.4em] mb-4">
-            Certification
-          </h6>
-          <span className="text-green-500   font-serif italic text-4xl md:text-6xl font-display font-bold "> Our Expert Doctor</span>
-         
-        </motion.div>
-
-        <div className="grid lg:grid-cols-2 gap-14 items-center">
-
+  {/* Doctors Grid */}
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {doctors.map((doc, index) => (
+      <motion.div
+        key={index}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: index * 0.1 }}
+        viewport={{ once: true }}
+        className="group relative"
+      >
+        <div className="relative rounded-3xl overflow-hidden shadow-xl bg-white aspect-[4/5]">
           {/* Doctor Image */}
-          <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="relative group"
-          >
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+          <img
+            src={doc.image.src}
+            alt={doc.name}
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          />
 
-              {/* Image */}
-              <img
-                src={doctorImg.src}
-                alt="Dr. K. Pournesh"
-                className="w-full h-[650px] object-cover transition-transform duration-700 group-hover:scale-110"
-              />
+          {/* Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90" />
 
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+          {/* Info Card (Glassmorphism) */}
+          <div className="absolute bottom-4 left-4 right-4 p-5 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 text-white transform transition-transform duration-500 group-hover:-translate-y-2">
+            <h3 className="text-xl font-bold font-display leading-tight">
+              {doc.name}
+            </h3>
+            <p className="text-green-400 text-sm font-semibold mt-1">
+              {doc.role}
+            </p>
+            <p className="text-white/70 text-xs mt-1 italic">
+              {doc.specialty}
+            </p>
+          </div>
 
-              {/* Doctor Info */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 backdrop-blur-sm">
-                <h3 className="font-display text-2xl font-bold text-white">
-                  Dr.PL.Nagappan
-                </h3>
-                <p className="text-white/80 text-sm">
-                  Lead Dentist & Founder
-                </p>
-              </div>
+          {/* Award Badge on Hover */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
+              <Award className="w-5 h-5 text-white" />
             </div>
-
-            {/* Floating Badge */}
-            <div className="absolute -bottom-5 -right-5 w-20 h-20 bg-primary rounded-2xl flex items-center justify-center shadow-xl backdrop-blur-md">
-              <Award className="w-8 h-8 text-white" />
-            </div>
-          </motion.div>
-
-          {/* Right Content */}
-          <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-
-            {/* Highlights */}
-            <ul className="space-y-6 mb-10">
-              {highlights.map((item, i) => (
-                <motion.li
-                  key={i}
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.3 + i * 0.15 }}
-                  viewport={{ once: true }}
-                  className="flex gap-4 items-start group/item"
-                >
-                  <div className="w-10 h-10 flex-shrink-0  rounded-xl bg-primary/10 flex items-center justify-center text-green-300 group-hover/item:bg-primary group-hover/item:text-green-500 transition-all duration-300">
-                    <Star className="w-5 h-5" />
-                  </div>
-
-                  <p className=" text-gray-600 leading-relaxed">{item}</p>
-                </motion.li>
-              ))}
-            </ul>
-
-            {/* Certifications */}
-            <div>
-              <h4 className="font-semibold text-lg mb-4 text-green-500">
-                Professional Certifications
-              </h4>
-
-              <div className="grid grid-cols-3 gap-4">
-
-                {certificates.map((cert, i) => (
-                  <motion.div
-                    key={i}
-                    whileHover={{ scale: 1.08 }}
-                    transition={{ duration: 0.3 }}
-                    className="relative group overflow-hidden rounded-xl border border-white/20 backdrop-blur-lg shadow-md"
-                  >
-                    <img
-                      src={cert.src}
-                      alt="Certification"
-                      className="w-full h-28 object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-
-                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition" />
-                  </motion.div>
-                ))}
-
-              </div>
-            </div>
-
-          </motion.div>
+          </div>
         </div>
+      </motion.div>
+    ))}
+  </div>
+</div>
+
+{/* 
+<div className="container mx-auto px-4">
+   
+    <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+      <div className="max-w-2xl">
+        <h6 className="text-green-600 font-bold uppercase tracking-widest text-sm mb-2">
+          Official Credentials
+        </h6>
+        <h2 className="text-4xl font-bold text-gray-900 font-display">
+          Clinic Certifications & Hospital Accreditation
+        </h2>
       </div>
+      <div className="h-1 w-24 bg-green-500 rounded-full hidden md:block mb-4" />
+    </div>
+
+   
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {hospitalCertificates.map((cert, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+          whileHover={{ y: -10 }}
+          className="group relative bg-white p-4 rounded-3xl shadow-lg border border-gray-100"
+        >
+          
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100">
+            <img
+              src={cert.src.src}
+              alt={cert.title}
+              className="w-full h-full object-contain p-2 transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div className="absolute inset-0 bg-green-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div>
+
+         
+          <div className="mt-4 flex items-center justify-between px-2">
+            <span className="font-semibold text-gray-700">{cert.title}</span>
+            <div className="p-2 bg-green-50 rounded-full text-green-600">
+              <Award size={18} />
+            </div>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+
+    
+    <motion.p 
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      className="text-center text-gray-400 text-sm mt-12 italic"
+    >
+      * All certificates are verified and updated for the year 2026.
+    </motion.p>
+  </div> */}
     </section>
 
   <section className="section-padding relative overflow-hidden bg-cyan-100/50   gradient-to-b from-green-50 via-white to-green-50">
