@@ -717,8 +717,10 @@ const highlights = [
       id="doctors"
       className="bg-cyan-100/50  overflow-hidden"
     >
-      <div className="mb-18 mt-10 container mx-auto px-4">
-  {/* Title Section */}
+
+
+ <div className="mb-18 mt-10 container mx-auto px-4">
+  {/* Title */}
   <motion.div
     initial={{ opacity: 0, y: 30 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -726,59 +728,118 @@ const highlights = [
     className="text-center mb-16"
   >
     <h6 className="text-black text-md font-semibold uppercase tracking-[0.4em] mb-4">
-      Certification
+      Hospital Founder
     </h6>
-    <span className="text-green-500 font-serif italic text-4xl md:text-6xl font-bold">
-      Our Expert Doctors
+    <span className="text-green-500 font-serif italic text-4xl md:text-6xl font-display font-bold">
+      Our Expert Doctor
     </span>
   </motion.div>
 
-  {/* Doctors Grid */}
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    {doctors.map((doc, index) => (
-      <motion.div
-        key={index}
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: index * 0.1 }}
-        viewport={{ once: true }}
-        className="group relative"
-      >
-        <div className="relative rounded-3xl overflow-hidden shadow-xl bg-white aspect-[4/5]">
-          {/* Doctor Image */}
-          <img
-            src={doc.image.src}
-            alt={doc.name}
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-          />
+  <div className="grid lg:grid-cols-2 gap-14 items-center">
+    {/* Doctor Image (Founder Featured) */}
+    <motion.div
+      initial={{ opacity: 0, x: -40 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="relative group"
+    >
+      <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
+        {/* Main Image */}
+        <img
+          src={doc1.src}
+          alt="Dr. A. Steffina Lydia Jascinth"
+          className="w-full h-[650px] object-cover transition-transform duration-700 group-hover:scale-105"
+        />
 
-          {/* Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90" />
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
-          {/* Info Card (Glassmorphism) */}
-          <div className="absolute bottom-4 left-4 right-4 p-5 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 text-white transform transition-transform duration-500 group-hover:-translate-y-2">
-            <h3 className="text-xl font-bold font-display leading-tight">
-              {doc.name}
-            </h3>
-            <p className="text-green-400 text-sm font-semibold mt-1">
-              {doc.role}
-            </p>
-            <p className="text-white/70 text-xs mt-1 italic">
-              {doc.specialty}
-            </p>
-          </div>
-
-          {/* Award Badge on Hover */}
-          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
-              <Award className="w-5 h-5 text-white" />
-            </div>
-          </div>
+        {/* Founder Info Overlay */}
+        <div className="absolute bottom-0 left-0 right-0 p-8 backdrop-blur-md bg-black/10">
+          <h3 className="font-display text-3xl font-bold text-white">
+            Dr. A. Steffina Lydia Jascinth
+          </h3>
+          <p className="text-green-400 font-semibold text-lg flex items-center gap-2">
+             BDS, MDS — Oral Physician & Radiologist
+          </p>
+          <p className="text-white/70 text-sm mt-1 uppercase tracking-widest">
+            Founder of Dani Dental Clinic
+          </p>
         </div>
-      </motion.div>
-    ))}
+      </div>
+
+      {/* Floating Award Badge */}
+      <div className="absolute -bottom-5 -right-5 w-24 h-24 bg-green-500 rounded-3xl flex items-center justify-center shadow-xl transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
+        <Award className="w-10 h-10 text-white" />
+      </div>
+    </motion.div>
+
+    {/* Right Content - Founder Highlights */}
+    <motion.div
+      initial={{ opacity: 0, x: 40 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      viewport={{ once: true }}
+    >
+      <div className="mb-8">
+        <h4 className="text-3xl font-bold text-slate-800 mb-4">Professional Profile</h4>
+        <p className="text-slate-600 leading-relaxed italic">
+          "Dedicated to providing advanced oral diagnostic care and precision radiology 
+          to ensure the highest standards of dental health for our community."
+        </p>
+      </div>
+
+      <ul className="space-y-6 mb-10">
+        {[
+          "Specialized in Oral Medicine and Maxillofacial Radiology",
+          "Expert in Digital Imaging and Diagnostic Precision",
+          "Advanced treatment planning for complex dental cases",
+          "Leading the clinical team with 10+ years of expertise"
+        ].map((item, i) => (
+          <motion.li
+            key={i}
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3 + i * 0.15 }}
+            viewport={{ once: true }}
+            className="flex gap-4 items-start group/item"
+          >
+            <div className="w-10 h-10 flex-shrink-0 rounded-xl bg-green-50 flex items-center justify-center text-green-500 group-hover/item:bg-green-500 group-hover/item:text-white transition-all duration-300">
+              <Star className="w-5 h-5" />
+            </div>
+            <p className="text-slate-700 font-medium leading-relaxed mt-2">{item}</p>
+          </motion.li>
+        ))}
+      </ul>
+
+      {/* Mini Certification Grid */}
+      <div>
+        <h4 className="font-semibold text-sm uppercase tracking-widest mb-6 text-slate-400">
+          Professional Accreditations
+        </h4>
+        <div className="grid grid-cols-3 gap-4">
+          {certificates.map((cert, i) => (
+            <motion.div
+              key={i}
+              whileHover={{ scale: 1.05, y: -5 }}
+              className="relative group overflow-hidden rounded-2xl border border-slate-200 p-2 bg-white shadow-sm"
+            >
+              <img
+                src={cert.src}
+                alt="Certification"
+                className="w-full h-24 object-contain"
+              />
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </motion.div>
   </div>
 </div>
+
+
+      
 
 {/* 
 <div className="container mx-auto px-4">
