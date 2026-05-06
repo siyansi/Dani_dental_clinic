@@ -2,37 +2,51 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { GraduationCap, Award, Stethoscope, Star } from "lucide-react";
+// import { GraduationCap, Award, Stethoscope, Star } from "lucide-react";
 import FloatingButtons from "@/component/flotingbutton";
+
+import doc1 from '../../assets/IMG-20260501-WA0031.jpg.jpeg';
+import doc2 from '../../assets/IMG-20260328-WA0008.jpg.jpeg';
+import doc3 from '../../assets/IMG-20260505-WA0014.jpg.jpeg';
+import doc4 from '../../assets/IMG-20260328-WA0006.jpg.jpeg';
+import doc5 from '../../assets/IMG-20260302-WA0003.jpg.jpeg';
+import { Star, Stethoscope, GraduationCap, Award } from 'lucide-react'; // Ensure icons are imported
 
 const doctors = [
   {
-    name: "Dr. Gayathri Raju",
-    role: "Chief Dentist",
-    degree: "BDS",
-    specialty: "General Dentistry",
-    image: "/doctors/gayathri.jpg", // Replace with your actual paths
-  },
-  {
-    name: "Dr. Venkatesh",
-    role: "Periodontist",
+    name: "Dr. A. Steffina Lydia Jascinth",
+    role: "Oral Physician & Radiologist",
+    specialty: "Founder of Dani Dental Clinic",
     degree: "BDS, MDS",
-    specialty: "Gum Specialist",
-    image: "/doctors/venkatesh.jpg",
+    image: doc1,
   },
   {
-    name: "Dr. Unnamalai",
-    role: "Clinical Head",
+    name: "Dr. S. Rajapriya",
+    role: "Dental Surgeon",
+    specialty: "General Dentistry",
     degree: "BDS",
-    specialty: "Dental Surgery",
-    image: "/doctors/unnamalai.jpg",
+    image: doc3,
+  },
+  {
+    name: "Dr. G. Sathees Chandra Mouli",
+    role: "Oral Physician",
+    specialty: "Oral Diagnosis",
+    degree: "BDS, MDS",
+    image: doc2,
   },
   {
     name: "Dr. T. Vignesh Prabhu",
-    role: "FCMFTS",
-    degree: "BDS, MDS",
-    specialty: "Maxillofacial Surgeon",
-    image: "/doctors/vignesh.jpg",
+    role: "Consultant Oral Maxillofacial Surgeon",
+    specialty: "Surgical Specialist",
+    degree: "MDS (OMFS)",
+    image: doc4,
+  },
+  {
+    name: "Dr. PL. Nagappan",
+    role: "Consultant Orthodontist",
+    specialty: "Braces Specialist",
+    degree: "MDS (Ortho)",
+    image: doc5,
   },
 ];
 
@@ -68,7 +82,9 @@ const DoctorsPage = () => {
       </div>
 
       {/* Grid Section */}
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+     <div className="container mx-auto px-4 py-16">
+      {/* Updated to grid-cols-3 for better layout with 5 doctors */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {doctors.map((doc, index) => (
           <motion.div
             key={doc.name}
@@ -80,52 +96,57 @@ const DoctorsPage = () => {
             className="group relative"
           >
             {/* Glass Card */}
-            <div className="relative overflow-hidden backdrop-blur-xl bg-white/70 border border-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] rounded-[2.5rem] p-6 h-full transition-all duration-500 group-hover:shadow-green-200/50 group-hover:bg-white/90">
+            <div className="relative overflow-hidden backdrop-blur-xl bg-white/70 border border-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] rounded-[2.5rem] p-8 h-full transition-all duration-500 group-hover:shadow-green-200/50 group-hover:bg-white/90">
               
               {/* Image Container */}
-              <div className="relative w-40 h-40 mx-auto mb-8">
-                <div className="absolute inset-0 bg-green-400 rounded-full blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" />
+              <div className="relative w-46 h-46 mx-auto mb-8">
+                <div className="absolute inset-0 bg-green-400    rounded-full blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500" />
                 <img
-                  src={doc.image}
+                  src={doc.image.src} // Added .src for imported assets
                   alt={doc.name}
-                  className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover object-top rounded-full border-4 border-white shadow-lg transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute -bottom-2 right-2 bg-white p-2 rounded-full shadow-md text-green-500">
-                  <Star size={16} fill="currentColor" />
+                <div className="absolute -bottom-2 right-4 bg-white p-2 rounded-full shadow-md text-green-500">
+                  <Star size={18} fill="currentColor" />
                 </div>
               </div>
 
               {/* Content */}
               <div className="text-center">
-                <h3 className="text-xl font-bold text-slate-800 mb-1">
+                <h3 className="text-2xl font-bold text-slate-800 mb-1">
                   {doc.name}
                 </h3>
-                <p className="text-green-600 font-semibold text-sm mb-4 flex items-center justify-center gap-1">
-                  <Stethoscope size={14} /> {doc.role}
+                <p className="text-green-600 font-bold text-sm mb-6 flex items-center justify-center gap-2">
+                  <Stethoscope size={16} /> {doc.role}
                 </p>
 
-                <div className="space-y-3 pt-4 border-t border-slate-100">
+                <div className="space-y-4 pt-6 border-t border-slate-100">
                   <div className="flex items-center gap-3 text-slate-600 text-sm">
-                    <GraduationCap size={18} className="text-slate-400" />
-                    <span>{doc.degree}</span>
+                    <div className="w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center">
+                      <GraduationCap size={18} className="text-slate-400" />
+                    </div>
+                    <span className="font-medium text-left">{doc.degree}</span>
                   </div>
                   <div className="flex items-center gap-3 text-slate-600 text-sm">
-                    <Award size={18} className="text-slate-400" />
-                    <span>{doc.specialty}</span>
+                    <div className="w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center">
+                      <Award size={18} className="text-slate-400" />
+                    </div>
+                    <span className="font-medium text-left">{doc.specialty}</span>
                   </div>
                 </div>
 
                 <motion.button
                   whileTap={{ scale: 0.95 }}
-                  className="mt-8 w-full py-3 rounded-2xl bg-slate-900 text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0"
+                  className="mt-8 w-full py-4 rounded-2xl bg-slate-900 text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-4 group-hover:translate-y-0 shadow-xl"
                 >
-                  View Profile
+                  Book Appointment
                 </motion.button>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
+    </div>
       <FloatingButtons/>
     </div>
   );
