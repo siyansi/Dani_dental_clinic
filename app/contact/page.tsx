@@ -189,11 +189,15 @@ const ContactPage = () => {
                 <div className="flex items-center gap-2 text-slate-700 font-bold mb-4">
                   <Clock size={16} /> Working Hours
                 </div>
-                <div className="grid grid-cols-2 gap-y-2 text-sm text-slate-500">
-                  <span>Mon - Thu</span><span className="text-green-600 font-bold text-right">08:00 - 20:00</span>
-                  <span>Friday</span><span className="text-green-600 font-bold text-right">07:00 - 22:00</span>
-                  <span>Saturday</span><span className="text-green-600 font-bold text-right">08:00 - 18:00</span>
-                </div>
+               <div className="grid grid-cols-2 gap-y-2 text-sm text-slate-500">
+  {/* Days Range */}
+  <span>Monday - Saturday</span>
+  <span className="text-green-600 font-bold text-right">09:30 AM - 08:00 PM</span>
+  
+  {/* Sunday Status */}
+  <span>Sunday</span>
+  <span className="text-red-500 font-bold text-right">Closed</span>
+</div>
               </div>
             </motion.div>
           </div>
