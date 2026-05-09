@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Book Your Child's Appointment",
-        content: "Don't wait for a toothache to visit the dentist. Schedule your child's dental checkup at GuGu Dental Clinics this school holiday. Call us at 95979 06838 to book your appointment today."
+        content: "Don't wait for a toothache to visit the dentist. Schedule your child's dental checkup at Dani Dental Clinics this school holiday. Call us at 95979 06838 to book your appointment today."
       }
     ]
   },
@@ -108,7 +108,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Which Option Is Right for You?",
-        content: "The best treatment depends on factors like the number of missing teeth, jawbone health, budget, and personal preferences. At GuGu Dental Clinics, our experts will evaluate your condition and recommend the most suitable treatment plan. Contact us at 95979 06838 for a consultation."
+        content: "The best treatment depends on factors like the number of missing teeth, jawbone health, budget, and personal preferences. At DANI Dental Clinics, our experts will evaluate your condition and recommend the most suitable treatment plan. Contact us at 95979 06838 for a consultation."
       }
     ]
   },
@@ -150,8 +150,8 @@ export const blogPosts: BlogPost[] = [
         ]
       },
       {
-        heading: "GuGu Dental Clinics — Your Trusted Partner",
-        content: "At GuGu Dental Clinics in Coimbatore, we welcome international patients with personalized care plans, comfortable facilities, and expert dental professionals. Contact us at 95979 06838 to plan your dental visit to India."
+        heading: "DANI Dental Clinics — Your Trusted Partner",
+        content: "At DANI Dental Clinics in Coimbatore, we welcome international patients with personalized care plans, comfortable facilities, and expert dental professionals. Contact us at 95979 06838 to plan your dental visit to India."
       }
     ]
   },
@@ -172,7 +172,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Dental Hygiene Check-Up",
-        content: "We always recommend a Dental Hygiene check-up at GuGu Dental Clinics, especially if it has been more than six months since your last visit. Regular cleanings remove plaque and tartar buildup that regular brushing can't address."
+        content: "We always recommend a Dental Hygiene check-up at DANI Dental Clinics, especially if it has been more than six months since your last visit. Regular cleanings remove plaque and tartar buildup that regular brushing can't address."
       },
       {
         heading: "Summer Dental Care Tips",
@@ -198,7 +198,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Schedule Your Pre-Summer Visit",
-        content: "Don't let dental issues ruin your summer plans. Schedule your pre-summer dental checkup at GuGu Dental Clinics today. Call us at 95979 06838."
+        content: "Don't let dental issues ruin your summer plans. Schedule your pre-summer dental checkup at DANI Dental Clinics today. Call us at 95979 06838."
       }
     ]
   },
@@ -243,7 +243,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Get Your Smile Back",
-        content: "At GuGu Dental Clinics, we specialize in immediate dental implant procedures with experienced implantologists and advanced technology. Contact us at 95979 06838 to learn if you're a candidate."
+        content: "At DANI Dental Clinics, we specialize in immediate dental implant procedures with experienced implantologists and advanced technology. Contact us at 95979 06838 to learn if you're a candidate."
       }
     ]
   },
@@ -256,7 +256,7 @@ export const blogPosts: BlogPost[] = [
     year: "2025",
     author: "admin",
     image: "christmas-dental-tips",
-    excerpt: "Keep your smile merry and bright this Christmas with these essential dental care tips from GuGu Dental Clinics.",
+    excerpt: "Keep your smile merry and bright this Christmas with these essential dental care tips from DANI Dental Clinics.",
     sections: [
       {
         heading: "Enjoy the Holidays Without Damaging Your Teeth",
@@ -280,7 +280,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Holiday Dental Emergency Tips",
-        content: "If you experience a dental emergency during the holidays, contact GuGu Dental Clinics immediately. Keep our number handy: 95979 06838. We're here to ensure your holidays remain merry and bright!"
+        content: "If you experience a dental emergency during the holidays, contact DANI Dental Clinics immediately. Keep our number handy: 95979 06838. We're here to ensure your holidays remain merry and bright!"
       }
     ]
   },
@@ -313,8 +313,8 @@ export const blogPosts: BlogPost[] = [
         ]
       },
       {
-        heading: "Start Your Year at GuGu Dental",
-        content: "Begin your year with a comprehensive dental checkup at GuGu Dental Clinics. Our team will help you create a personalized dental care plan for the year ahead. Call 95979 06838 to book your appointment."
+        heading: "Start Your Year at DANI Dental",
+        content: "Begin your year with a comprehensive dental checkup at DANI Dental Clinics. Our team will help you create a personalized dental care plan for the year ahead. Call 95979 06838 to book your appointment."
       }
     ]
   },
@@ -346,7 +346,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "When to Visit a Pedodontist",
-        content: "Your child should see a pedodontist by their first birthday or when the first tooth appears. Regular visits every 6 months help catch problems early and build positive associations with dental care. Contact GuGu Dental at 95979 06838."
+        content: "Your child should see a pedodontist by their first birthday or when the first tooth appears. Regular visits every 6 months help catch problems early and build positive associations with dental care. Contact DANI Dental at 95979 06838."
       }
     ]
   },
@@ -378,7 +378,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Fun Activities for Dental Awareness",
-        content: "Make dental health education fun for kids. Use coloring books about teeth, watch educational videos about brushing, and let them practice on toy models. At GuGu Dental Clinics, we make every child's visit a positive experience. Call 95979 06838."
+        content: "Make dental health education fun for kids. Use coloring books about teeth, watch educational videos about brushing, and let them practice on toy models. At DANI Dental Clinics, we make every child's visit a positive experience. Call 95979 06838."
       }
     ]
   },
@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "The Best Approach",
-        content: "For optimal oral health, brush twice daily — once in the morning and once before bed. Use fluoride toothpaste, brush for at least 2 minutes, and don't forget to floss. Visit GuGu Dental Clinics for personalized oral hygiene guidance. Call 95979 06838."
+        content: "For optimal oral health, brush twice daily — once in the morning and once before bed. Use fluoride toothpaste, brush for at least 2 minutes, and don't forget to floss. Visit DANI Dental Clinics for personalized oral hygiene guidance. Call 95979 06838."
       }
     ]
   },
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Prevention and Early Detection",
-        content: "Regular dental checkups at GuGu Dental Clinics include oral cancer screening. Early detection saves lives. Call 95979 06838 to schedule your screening today."
+        content: "Regular dental checkups at DANI Dental Clinics include oral cancer screening. Early detection saves lives. Call 95979 06838 to schedule your screening today."
       }
     ]
   },
@@ -480,7 +480,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Long-Term Investment in Health",
-        content: "While implants may have a higher initial cost, they are the most cost-effective solution in the long run. With proper care, dental implants can last a lifetime. Book your consultation at GuGu Dental Clinics — call 95979 06838."
+        content: "While implants may have a higher initial cost, they are the most cost-effective solution in the long run. With proper care, dental implants can last a lifetime. Book your consultation at DANI Dental Clinics — call 95979 06838."
       }
     ]
   },
@@ -523,12 +523,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Get Expert Guidance",
-        content: "At GuGu Dental Clinics, we provide comprehensive Invisalign care guidance throughout your treatment journey. Contact us at 95979 06838 for your Invisalign consultation."
+        content: "At DANI Dental Clinics, we provide comprehensive Invisalign care guidance throughout your treatment journey. Contact us at 95979 06838 for your Invisalign consultation."
       }
     ]
   },
   {
-    slug: "dental-anxiety-in-kids-gugu-dental-clinics",
+    slug: "dental-anxiety-in-kids-dani-dental-clinics",
     title: "Dental Anxiety in Kids — How to Manage It",
     date: "12 Sep, 2025",
     day: "12",
@@ -556,7 +556,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Our Child-Friendly Approach",
-        content: "At GuGu Dental Clinics, our pediatric specialists are trained to handle dental anxiety with patience and care. We create a warm, fun environment that puts children at ease. Call us at 95979 06838."
+        content: "At DANI Dental Clinics, our pediatric specialists are trained to handle dental anxiety with patience and care. We create a warm, fun environment that puts children at ease. Call us at 95979 06838."
       }
     ]
   },
@@ -590,7 +590,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Don't Wait for Pain",
-        content: "Cavities don't always cause pain in their early stages. Regular dental checkups at GuGu Dental Clinics can catch cavities early when they're easier and less expensive to treat. Call 95979 06838 to schedule your visit."
+        content: "Cavities don't always cause pain in their early stages. Regular dental checkups at DANI Dental Clinics can catch cavities early when they're easier and less expensive to treat. Call 95979 06838 to schedule your visit."
       }
     ]
   },
@@ -627,7 +627,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Book Your Scaling Appointment",
-        content: "At GuGu Dental Clinics, we use the latest ultrasonic technology for comfortable, painless scaling. Don't let fear prevent you from getting this important treatment. Call 95979 06838 today."
+        content: "At DANI Dental Clinics, we use the latest ultrasonic technology for comfortable, painless scaling. Don't let fear prevent you from getting this important treatment. Call 95979 06838 today."
       }
     ]
   },
@@ -659,7 +659,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Treatment Duration",
-        content: "Orthodontic treatment typically takes 12 to 36 months, depending on the complexity of the case. Regular adjustments every 4-6 weeks ensure steady progress. GuGu Dental Clinics offers all types of braces. Call 95979 06838 for a consultation."
+        content: "Orthodontic treatment typically takes 12 to 36 months, depending on the complexity of the case. Regular adjustments every 4-6 weeks ensure steady progress. DANI Dental Clinics offers all types of braces. Call 95979 06838 for a consultation."
       }
     ]
   },
@@ -692,12 +692,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Start Your Orthodontic Journey",
-        content: "Whether you're considering braces or Invisalign, GuGu Dental Clinics has experienced orthodontists ready to help. Contact us at 95979 06838 for your orthodontic evaluation."
+        content: "Whether you're considering braces or Invisalign, DANI Dental Clinics has experienced orthodontists ready to help. Contact us at 95979 06838 for your orthodontic evaluation."
       }
     ]
   },
   {
-    slug: "smile-makeover-treatments-gugu-dental-clinics",
+    slug: "smile-makeover-treatments-dani-dental-clinics",
     title: "Smile Makeover: What Are Your Options?",
     date: "23 Aug, 2025",
     day: "23",
@@ -725,7 +725,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Transform Your Smile",
-        content: "At GuGu Dental Clinics, we create personalized smile makeover plans tailored to your needs and budget. Book your smile consultation today — call 95979 06838."
+        content: "At DANI Dental Clinics, we create personalized smile makeover plans tailored to your needs and budget. Book your smile consultation today — call 95979 06838."
       }
     ]
   },
@@ -758,7 +758,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Expert Root Canal Care",
-        content: "At GuGu Dental Clinics, our endodontic specialists use advanced technology for comfortable, minimally invasive root canal treatments. Call 95979 06838 for expert care."
+        content: "At DANI Dental Clinics, our endodontic specialists use advanced technology for comfortable, minimally invasive root canal treatments. Call 95979 06838 for expert care."
       }
     ]
   }

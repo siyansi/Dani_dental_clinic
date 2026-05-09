@@ -14,7 +14,7 @@ const galleryItems = [
   { id: 5, type: "row-2", img: "/gallery/pediatric_corner.jpg", alt: "Friendly Pediatric Corner" }, // Tall
   { id: 6, type: "col-2", img: "/gallery/laser_treatment.jpg", alt: "Laser Dentistry Session" }, // Wide
   { id: 7, type: "square", img: "/gallery/implant_before_after.jpg", alt: "Dental Implant Success" },
-  { id: 8, type: "square", img: "/gallery/clinic_exterior.jpg", alt: "Gugu Dental Clinic Exterior" },
+  { id: 8, type: "square", img: "/gallery/clinic_exterior.jpg", alt: "Dani Dental Clinic Exterior" },
 ];
 
 const GalleryPage = () => {
@@ -36,7 +36,7 @@ const GalleryPage = () => {
           transition={{ delay: 0.2 }}
           className="mt-6 text-4xl md:text-5xl font-bold text-slate-900"
         >
-          Explore Our <span className="text-green-500">Gugu Dental</span> Gallery
+          Explore Our <span className="text-green-500">Dani Dental</span> Gallery
         </motion.h1>
 
         {/* 2. Your Provided Paragraph - Styled for a premium feel */}
@@ -47,7 +47,7 @@ const GalleryPage = () => {
           className="mt-10 backdrop-blur-lg bg-white/60 p-8 rounded-3xl border border-white shadow-[0_8px_32px_rgba(0,0,0,0.03)]"
         >
           <p className="text-slate-600 leading-relaxed text-justify text-base md:text-lg">
-            Many dental centers in Coimbatore are excellent at what they offer. Gugu Dental Clinics is one such spot. It is the best dental clinic and We have the best dentist in Saibaba Colony, and Thudiyalur Coimbatore on account of the best foundation and innovation they have. It is a multi-claim-to-fame dental emergency clinic that deals with the patient’s needs and ensures that they are truly agreeable and that they return with a grin. Gugu Dental Clinics offers numerous administrations including Laser Dentistry, Dental Implants, tooth filling, pediatric dental care, teeth brightening, and substantially more. With the facility situated at Saibaba Colony, it is much simpler to be situated in the region. Gugu Dental Clinics is the best dental facility and dental emergency clinic in Saibaba Colony, Coimbatore.
+            Many dental centers in Coimbatore are excellent at what they offer. Dani Dental Clinics is one such spot. It is the best dental clinic and We have the best dentist in Saibaba Colony, and Thudiyalur Coimbatore on account of the best foundation and innovation they have. It is a multi-claim-to-fame dental emergency clinic that deals with the patient’s needs and ensures that they are truly agreeable and that they return with a grin. Dani Dental Clinics offers numerous administrations including Laser Dentistry, Dental Implants, tooth filling, pediatric dental care, teeth brightening, and substantially more. With the facility situated at Saibaba Colony, it is much simpler to be situated in the region. Dani Dental Clinics is the best dental facility and dental emergency clinic in Saibaba Colony, Coimbatore.
           </p>
         </motion.div>
       </div>

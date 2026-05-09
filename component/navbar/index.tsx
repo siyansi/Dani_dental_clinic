@@ -15,7 +15,7 @@ const navLinks = [
     label: "Services",
     href: "/service",
     children: [
-      { label: "Nitrous Oxide Relaxation", href: "/service/nitrous-oxide-relaxation" },
+      // { label: "Nitrous Oxide Relaxation", href: "/service/nitrous-oxide-relaxation" },
       { label: "Orthodontic Treatment", href: "/service/orthodontic" },
       { label: "Pediatric Dental Treatment", href: "/service/pediatric" },
       { label: "Dental Implant", href: "/service/implants" },
@@ -53,7 +53,7 @@ const Navbar = () => {
             {/* Using your logo image but falling back to the 'G' icon if image fails */}
             <Image
               src={logo.src}
-              alt="GUGU Dental Logo"
+              alt="DANI Dental Logo"
               fill
               className="object-contain"
               priority
