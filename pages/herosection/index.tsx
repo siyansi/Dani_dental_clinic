@@ -358,7 +358,7 @@ const points = [
   },
   {
     icon: Calendar,
-    title: "Open 7 Days",
+    title: "Open 6 Days",
     desc: "Working from 9:30 a.m. including public holidays",
   },
   {
